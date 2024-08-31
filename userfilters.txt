@@ -1,5 +1,5 @@
 Свой фильтр
-
+User filter
 !https://adguard.com/kb/ru/general/ad-filtering/create-own-filters/#
 !https://forum.keenetic.com/topic/8203-adguardhome/page/16/
 !https://github.com/DandelionSprout/AdguardFilters/tree/master
