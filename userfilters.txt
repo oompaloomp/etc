@@ -10,6 +10,7 @@ User filter
 ||*googlevideo.*^$client=~192.168.0.100|~192.168.0.101|~192.168.0.102|~192.168.0.106|~192.168.0.109|~192.168.0.112
 ||*googlevideo.*^$client=192.168.0.107
 ||*googleuser*.*^$client=192.168.0.107
+||*userapi*.*^$client=192.168.0.107
 ||*rutube*.*^$client=192.168.0.107
 ||*play*.*^$client=192.168.0.107
 ||*store*.*^$client=192.168.0.107
