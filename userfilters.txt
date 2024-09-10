@@ -20,4 +20,5 @@
 ||*.*^$client=192.168.0.103
 !||example.com^$dnsrewrite=example.net
 !||example.com^$dnsrewrite=NOERROR;A;1.2.3.4
-||*team*.*^$dnsrewrite=NOERROR;A;192.168.0.106
+!||*team*.*^$dnsrewrite=NOERROR;A;192.168.0.106
+||*team*.*^$dnsrewrite=tvteam.eu
