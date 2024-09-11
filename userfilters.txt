@@ -20,5 +20,7 @@
 ||*.*^$client=192.168.0.103
 !||example.com^$dnsrewrite=example.net
 !||example.com^$dnsrewrite=NOERROR;A;1.2.3.4
-||my.router^$dnsrewrite=192.168.0.1
+!||_svctype._tcp.example.com^$dnsrewrite=NOERROR;SRV;10 60 8080 example.com добавляет запись SRV с приоритетным значением 10, значением веса 60, портом 8080 и целевым значением example.com.
+!||example.com^$dnsrewrite=NXDOMAIN;; отвечает кодом NXDOMAIN.
+||my.router^$dnsrewrite=NOERROR;;10 60 54 192.168.0.1
 ||*team*.*^$dnsrewrite=NOERROR;CNAME;tvteam.eu
