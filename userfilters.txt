@@ -1,5 +1,7 @@
 !Свой фильтр
 !User filter
+!Синтаксис правил DNS-фильтрации
+!https://adguard-dns.io/kb/ru/general/dns-filtering-syntax/
 !https://adguard.com/kb/ru/general/ad-filtering/create-own-filters/#
 !https://forum.keenetic.com/topic/8203-adguardhome/page/16/
 !https://github.com/DandelionSprout/AdguardFilters/tree/master
