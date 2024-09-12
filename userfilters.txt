@@ -9,6 +9,8 @@
 !$domain и инверсия ~
 !@@||*.*^$domain=~*googlevideo.*^$client=192.168.0.100
 !@@||*googlevideo.*^$client=192.168.0.100|192.168.0.102|192.168.0.106|192.168.0.112
+||*.0.168.192.in-addr.arpa^$dnsrewrite=NXDOMAIN;PTR;10 10 53 192.168.0.1
+||my.router^$dnsrewrite=NOERROR;;10 10 192.168.0.2
 ||*stati*.*^$client=~192.168.0.100|~192.168.0.101|~192.168.0.102|~192.168.0.105|
 ||*vk*.*^$client=~192.168.0.100|~192.168.0.101|~192.168.0.102|~192.168.0.105|192.168.0.107
 ||*cdn*.*^$client=~192.168.0.100|~192.168.0.101|~192.168.0.102|~192.168.0.105|192.168.0.107
@@ -24,6 +26,4 @@
 !||example.com^$dnsrewrite=NOERROR;A;1.2.3.4
 !||_svctype._tcp.example.com^$dnsrewrite=NOERROR;SRV;10 60 8080 example.com добавляет запись SRV с приоритетным значением 10, значением веса 60, портом 8080 и целевым значением example.com.
 !||example.com^$dnsrewrite=NXDOMAIN;; отвечает кодом NXDOMAIN.
-!||my.router^$dnsrewrite=NOERROR;;09 59 54 192.168.0.1
-||*.0.168.192.in-addr.arpa^$dnsrewrite=NXDOMAIN;PTR;10 10 53 192.168.0.1
 ||*team*.*^$dnsrewrite=NOERROR;CNAME;tvteam.eu
