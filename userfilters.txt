@@ -20,3 +20,4 @@
 ||*market*.*^$client=192.168.0.107|192.168.0.116
 ||*.*^$client=192.168.0.103
 ||*team*.*^$dnsrewrite=NOERROR;CNAME;tvteam.eu
+||baidu.*^
