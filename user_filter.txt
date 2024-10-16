@@ -1,0 +1,16 @@
+!Свой фильтр
+!User filter
+!Синтаксис правил DNS-фильтрации
+!https://adguard-dns.io/kb/ru/general/dns-filtering-syntax/
+!https://adguard.com/kb/ru/general/ad-filtering/create-own-filters/#
+!https://forum.keenetic.com/topic/8203-adguardhome/page/16/
+!https://github.com/DandelionSprout/AdguardFilters/tree/master
+!@@||*.*^$domain=~*googlevideo.*^$client=192.168.0.100
+!@@||*googlevideo.*^$client=192.168.0.100|192.168.0.102|192.168.0.106|192.168.0.112
+@@||*google*^$client=192.168.0.107|192.168.0.116
+@@||*ya*^$client=192.168.0.107|192.168.0.116
+@@||*yandex*^$client=192.168.0.107|192.168.0.116
+@@||*mail*^$client=192.168.0.107|192.168.0.116
+||*^$client=192.168.0.103
+||*analyt*^
+||*^$client=192.168.0.107|192.168.0.116
