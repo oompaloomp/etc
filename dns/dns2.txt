@@ -1,7 +1,7 @@
 # https://adguard-dns.io/kb/ru/general/dns-providers/
 # https://www.comss.ru/page.php?id=7315
 [/themoviedb.org/tmdb.org/]9.9.9.9
-[/openai.com/chatgpt.com/x.ai/grok.com//]https://router.comss.one/dns-query
+[/openai.com/chatgpt.com/x.com/x.ai/t.co/grok.com/twitter.com/twimg.com/]https://router.comss.one/dns-query
 [/claude.ai/googleapis.com/google.com/labs.google/notebooklm.google/gemini.google.com/]https://router.comss.one/dns-query
 [/kinozal.tv/wifimap.io/wfmp.net/]https://router.comss.one/dns-query
 [/rutor.is/rutor.info/rutracker.org/nnmclub.to/youtube.com/youtu.be/]https://dns.adguard-dns.com:443/dns-query
@@ -28,7 +28,11 @@ Hostnames
 *.genspark.ai;
 *.grok.com;
 *.x.ai;
-*.claude.ai
+*.t.co;
+*.x.com;
+*.twimg.com;
+*.twitter.com;
+*.claude.ai;
 *.ecosia.org;
 *.elevenlabs.io;
 *.featureassets.org;
