@@ -1,0 +1,34 @@
+# https://adguard-dns.io/kb/ru/general/dns-providers/
+# https://www.comss.ru/page.php?id=7315
+[/themoviedb.org/tmdb.org/]9.9.9.9
+# comss
+# DNS-over-HTTPS (DoH)
+https://router.comss.one/dns-query
+# DNS-over-TLS (DoT)
+# router.comss.one
+tls://router.comss.one
+# DNS-over-HTTPS (DoH)
+https://router.comss.one/dns-query
+# DNS-over-QUIC (DoQ)
+quic://router.comss.one
+# special DNS
+tls://77.88.8.8#common.dot.dns.yandex.net
+tls://94.140.14.14#dns.adguard-dns.com
+tls://94.140.15.15#dns.adguard-dns.com
+tls://dns.adguard-dns.com
+# DNS-over-HTTPS (DoH) adguard
+https://dns.adguard-dns.com:443/dns-query
+[/rutor.is/rutor.info/rutracker.org/nnmclub.to/youtube.com/youtu.be/]https://dns.adguard-dns.com:443/dns-query
+[/kinobase.org/]https://dns.adguard-dns.com:443/dns-query
+#[/pornolab.net/pornhub.com/pornhub.net/pornhub.org/]https://dns.cloudflare.com/dns-query
+
+# Bootstrap DNS-серверы
+# 76.76.2.0
+
+
+[/rutor.is/rutor.info/kinobase.org/rutracker.org/nnmclub.to/youtube.com/youtu.be/]https://dns.adguard-dns.com:443/dns-query
+[/pornhub.com/]https://dns.adguard-dns.com:443/dns-query
+https://dns.adguard-dns.com:443/dns-query
+[/themoviedb.org/tmdb.org/]9.9.9.9'
+[/openai.com/chatgpt.com/claude.ai/kinozal.tv/wifimap.io/wfmp.net/]https://dns.controld.com/comss
+[/walletbot.me/y5en.com/]https://dns.controld.com/comss'
