@@ -5,7 +5,7 @@
 !https://adguard.com/kb/ru/general/ad-filtering/create-own-filters/#
 !https://forum.keenetic.com/topic/8203-adguardhome/page/16/
 !https://github.com/DandelionSprout/AdguardFilters/tree/master
-||*^$client=~192.168.0.1|~192.168.0.2|~192.168.0.11|~192.168.0.102|~192.168.0.105|~192.168.0.106|~192.168.0.112
+||*^$client=~192.168.0.1|~192.168.0.2|~192.168.0.11|~192.168.0.101|~192.168.0.102|~192.168.0.105|~192.168.0.106|~192.168.0.112|~172.20.8.0/24
 ||*analyt*^
 !@@||viber*^$client=192.168.0.107|192.168.0.7|192.168.19.17|192.168.0.116
 !@@||google.*^$client=192.168.0.107|192.168.0.7|192.168.19.17|192.168.0.116
