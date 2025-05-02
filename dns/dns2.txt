@@ -2,11 +2,13 @@
 # https://www.comss.ru/page.php?id=7315
 [/themoviedb.org/tmdb.org/]9.9.9.9
 [/openai.com/chatgpt.com/x.com/x.ai/t.co/grok.com/twitter.com/twimg.com/]https://router.comss.one/dns-query
-[/claude.ai/googleapis.com/google.com/labs.google/notebooklm.google/gemini.google.com/]https://router.comss.one/dns-query
+[/claude.ai/googleapis.com/google.com/labs.google/notebooklm.google/gemini.google.com/microsoft.com/copilot.microsoft.com/designer.microsoft.com/]https://router.comss.one/dns-query
 [/kinozal.tv/wifimap.io/wfmp.net/]https://router.comss.one/dns-query
 [/rutor.is/rutor.info/rutracker.org/nnmclub.to/youtube.com/youtu.be/]https://dns.adguard-dns.com:443/dns-query
 [/kinobase.org/]https://dns.adguard-dns.com:443/dns-query
-#[/pornolab.net/pornhub.com/pornhub.net/pornhub.org/]https://dns.cloudflare.com/dns-query
+[/pornolab.net/pornhub.com/]1.1.1.1
+#[/pornolab.net/pornhub.com/]https://dns.cloudflare.com/dns-query
+#[/walletbot.me/y5en.com/]https://router.comss.one/dns-query
 # adguard
 # DNS-over-HTTPS (DoH)
 https://dns.adguard-dns.com/dns-query
@@ -18,10 +20,6 @@ quic://dns.adguard-dns.com
 tls://77.88.8.8#common.dot.dns.yandex.net
 tls://94.140.14.14#dns.adguard-dns.com
 tls://94.140.15.15#dns.adguard-dns.com
-
-[/rutor.is/rutor.info/kinobase.org/rutracker.org/nnmclub.to/youtube.com/youtu.be/]https://dns.adguard-dns.com:443/dns-query
-[/pornhub.com/]https://dns.adguard-dns.com:443/dns-query
-[/walletbot.me/y5en.com/]https://router.comss.one/dns-query
 
 Hostnames
 *.chatgpt.com;
