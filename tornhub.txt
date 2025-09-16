@@ -1,3 +1,5 @@
 ! Tornhub
 pornhub.*##div#age-verification-container
 pornhub.*##div#age-verification-wrapper
+rt.pornhub.*##div#age-verification-container
+rt.pornhub.*##div#age-verification-wrapper
